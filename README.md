@@ -18,6 +18,7 @@ Run install.sh file. To run it open terminal and write command below:
     $./install.sh
 
 This bash file will automatically install needed python library, Tor, TorSocks, Obfs4proxy and Privoxy
+
 (For super-new users: $ is not part of command)
 
 ## Step 3.
