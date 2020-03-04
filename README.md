@@ -1,4 +1,4 @@
-# pyTorXy
+# PyTorXy
 Python base Tor and Privoxy GUI
 
 This Python App will help new users of Ubuntu to use tor and privoxy easily in a simple way.
