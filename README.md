@@ -15,7 +15,7 @@ If you download it, Extract zip file in /home/$USER/.
 
 Run install.sh file. To run it open terminal and write command below:
 
-    $./install.sh
+    $sudo bash install.sh
 
 This bash file will automatically install needed python library, Tor, TorSocks, Obfs4proxy and Privoxy
 
