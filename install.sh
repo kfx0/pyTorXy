@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt update
-sudo apt install python-tk python3-tk python-pil python3-pil tor torsocks obfs4proxy privoxy
+sudo apt install python-tk python3-tk python-pil python3-pil python-pil.imagetk python3-pil.imagetk tor torsocks obfs4proxy privoxy
 
 echo -n -e '\n>tor is'
 if(systemctl is-active tor)
@@ -35,13 +35,16 @@ Type=Application
 Terminal=false
 Name= pyTorXy
 Comment=Python base Tor and Privoxy GUI
-Exec= bash '"$SCRIPTPATH"/Python GUI/pytorxy.sh'
+Exec= sudo bash '"$SCRIPTPATH"/Python GUI/pytorxy.sh'
 Icon= "$SCRIPTPATH"/Python GUI/logo.png
 Categories=Network" >> pytorxy.desktop
 
-chmod +x $SCRIPTPATH/pytorxy.desktop
-chmod +x $SCRIPTPATH/'Python GUI/pytorxy.sh'
-chmod +x $SCRIPTPATH/'Python GUI/pytorxy.py'
+sudo chown root:root $SCRIPTPATH/pytorxy.desktop
+sudo chown root:root $SCRIPTPATH/'Python GUI/pytorxy.sh'
+sudo chown root:root $SCRIPTPATH/'Python GUI/pytorxy.py'
+sudo chmod +x $SCRIPTPATH/pytorxy.desktop
+sudo chmod +x $SCRIPTPATH/'Python GUI/pytorxy.sh'
+sudo chmod +x $SCRIPTPATH/'Python GUI/pytorxy.py'
 cp pytorxy.desktop '/home/'$USER'/.local/share/applications/'
 clear
 echo 'install successfully!'
