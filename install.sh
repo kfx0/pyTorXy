@@ -7,24 +7,28 @@ echo -n -e '\n>tor is'
 if(systemctl is-active tor)
 then
 systemctl stop tor
+echo 'Now Stopped!'
 fi
 
 echo -n -e '\n>privoxy is'
 if(systemctl is-active privoxy)
 then
 systemctl stop privoxy
+echo 'Now Stopped!'
 fi
 
 echo -n -e '\n>tor service is'
 if(systemctl is-enabled tor)
 then	
 systemctl disable tor
+echo 'Now Disabled!'
 fi
 
 echo -n -e '\n>privoxy service is'
 if(systemctl is-enabled privoxy)
 then
 systemctl disable privoxy
+echo 'Now Disabled!'
 fi
 
 SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
