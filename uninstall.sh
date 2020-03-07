@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo rm '/home/'$USER'/.local/share/applications/pytorxy.desktop'
+sudo rm '/usr/share/applications/pytorxy.desktop'
