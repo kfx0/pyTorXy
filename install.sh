@@ -35,7 +35,7 @@ Type=Application
 Terminal=false
 Name= pyTorXy
 Comment=Python base Tor and Privoxy GUI
-Exec= sudo bash '"$SCRIPTPATH"/Python GUI/pytorxy.sh'
+Exec= bash '"$SCRIPTPATH"/Python GUI/pytorxy.sh'
 Icon= "$SCRIPTPATH"/Python GUI/logo.png
 Categories=Network" >> pytorxy.desktop
 
