@@ -46,5 +46,5 @@ sudo chmod 7777 $SCRIPTPATH/pytorxy.desktop
 sudo chmod 7777 $SCRIPTPATH/'Python GUI/pytorxy.sh'
 sudo chmod 7777 $SCRIPTPATH/'Python GUI/pytorxy.py'
 sudo cp pytorxy.desktop '/usr/share/applications/'
-clear
+
 echo 'install successfully!'
