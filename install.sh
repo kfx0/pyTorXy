@@ -51,4 +51,12 @@ sudo chmod 7777 $SCRIPTPATH/'Python GUI/pytorxy.sh'
 sudo chmod 7777 $SCRIPTPATH/'Python GUI/pytorxy.py'
 sudo cp pytorxy.desktop '/usr/share/applications/'
 
-echo 'install successfully!'
+if [[ -z $(grep '[^[:space:] \n]' "Tor Config/Bridges list") ]] ; then
+  > "Tor Config/Bridges list"
+fi
+
+if [[ -z $(grep '[^[:space:] \n]' "Tor Config/obfs4 list") ]] ; then
+  > "Tor Config/obfs4 list"
+fi
+
+echo 'finish installation!'
