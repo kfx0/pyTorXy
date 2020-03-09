@@ -56,3 +56,9 @@ In Application, Go to Privoxy Config -> Privoxy Configuration. You can select po
 
 ## Use Tor Socks or Privoxy HTTP proxy
 Tor make socks5 proxy which could use in some applications. HTTP proxy provided by Privoxy could proxy whole device (read it from <a href="https://help.ubuntu.com/stable/ubuntu-help/net-proxy.html.en">here</a> or <a href="https://medium.com/@krish.raghuram/setting-up-proxy-in-ubuntu-95058da0b2d4">here</a>) or applications which could use http proxy. Both proxy addresses are `127.0.0.1`. Port of proxies are as you define in config.
+
+## Donation
+
+Please consider donating to support the development.
+
+With BTC: bc1qnhkrxfnx2zqccnf90695w3t2pgqjw7trdjtnlqzx45d0xwtky5mqgmzc9m
