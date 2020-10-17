@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt update
-sudo apt install python-tk python3-tk python-pil python3-pil python-pil.imagetk python3-pil.imagetk tor torsocks obfs4proxy privoxy
+sudo apt install python3-tk python3-pil python3-pil.imagetk tor torsocks obfs4proxy privoxy
 
 echo -n -e '\n>tor is'
 if(systemctl is-active tor)
