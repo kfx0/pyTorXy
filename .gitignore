@@ -128,8 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 Tor Config/Bridge
-Tor Config/Bridge list
+Tor Config/Bridges list
 Tor Config/obfs4 list
-Tor Config/Tor Post
+Tor Config/Tor Port
 Privoxy Config/Privoxy Port
 Privoxy Config/PrivoxyConfig
