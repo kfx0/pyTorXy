@@ -127,3 +127,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+Tor Config/Bridge
+Tor Config/obfs4 list
