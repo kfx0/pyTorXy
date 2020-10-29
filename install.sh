@@ -50,6 +50,7 @@ sudo chmod 7777 $SCRIPTPATH/pytorxy.desktop
 sudo chmod 7777 $SCRIPTPATH/'Python GUI/pytorxy.sh'
 sudo chmod 7777 $SCRIPTPATH/'Python GUI/pytorxy.py'
 cp pytorxy.desktop '/home/'$USER'/.local/share/applications/'
+rm pytorxy.desktop
 
 if [[ -z $(grep '[^[:space:] \n]' "Tor Config/Bridges list") ]] ; then
   > "Tor Config/Bridges list"

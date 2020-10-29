@@ -1,4 +1,5 @@
-UseBridges 0
-ExitNodes {us}
+UseBridges 1
+ClientTransportPlugin obfs4 exec /usr/bin/obfs4proxy
+Bridge obfs4 71.19.251.102:443 7B6B935E637C7BB06B44A80E0E72B994D2423215 cert=B7/gEtpBDHcuv/T2xQSdL1lS4E97sgPTKAY8yrJsCbmeOY+OeJAoxvkLcH2hw1jlj99Xdw iat-mode=0
 SocksListenAddress 127.0.0.1:9050
 SocksPort 9050
